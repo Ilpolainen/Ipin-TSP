@@ -21,5 +21,5 @@ tsp/algorithms/BruteForce.class
 tsp/citytools/RouteOrganizer.class
 tsp/citytools/City.class
 tsp/datastructures/GrowingArray.class
-tsp/citytools/CityHandler.class
 tsp/citytools/SavingsComparator.class
+tsp/citytools/CityHandler.class
