@@ -2,6 +2,10 @@
 
 ###Tietorakenteet
 
+####MyStack
+
+On testattu, mutta testitiedosto katosi Git- ja Maven- sekoiluissa.
+
 ####Heap
 
 Konstruktorien ja mekaanisten bugitestien lisäksi on keosta testattu olennaisesti seuraavia asioita: 
@@ -44,6 +48,17 @@ WheelLististä On testattu seuraavia asioita:
 - Rotate() asettaa headiksi entisen headin previn, ja pitää muuten listan järjestyksessä ja koon ennallaan.
 
 - Lisäksi on kokeiltu useampia perättäisiä inserttejä, takeHeadeja ja rotateja integraatiotestauksena. 
+
+####Union-Find
+
+(sijaitsee väärässä pakkauksessa, sillä en uskalla muuttaa enää sijaintia).
+
+- Find on tutkittu erikseen, ja myös sen poluntiivistys on testattu.
+
+- Union -metodista on testattu, että se päivittää parents-taulukkoa ja heights taulukkoa oikein.
+
+- Forming-Cycles on ollut hiukan vaikeampi testata, sillä se käyttää Union -metodia, joka muuttaa aina tilannetta. Siksi se on pitänyt testata yhtaikaa Union -metodin toimivuuden kanssa. On testattu, tunnistaako se, milloin yhteysjoukkoon lisättävä kaari muodostaa syklin. 
+
 
 ###Algortimit
 
